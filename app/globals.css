@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #fff8f8;
+  --microsoft-blue: #0067b8;
+  --microsoft-blue-hover: #005ba1;
+}
+
+body {
+  background-color: var(--background);
+}
+
+/* Custom input styles */
+.input-underline {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.input-underline:focus {
+  border-color: var(--microsoft-blue);
+  box-shadow: none;
+}
+
